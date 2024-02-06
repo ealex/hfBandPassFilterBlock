@@ -1,6 +1,6 @@
 (footprint "TOKO_10K" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 64EDEF79)
+  (tedit 654A20C3)
   (attr through_hole)
   (fp_text reference "REF**" (at -4 -6 unlocked) (layer "F.SilkS")
     (effects (font (size 0.7 0.7) (thickness 0.1)))
@@ -27,4 +27,9 @@
   (pad "6" thru_hole circle (at 3.5 -3.5) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 9efb25aa-d11e-4d2f-96a9-326a2f75dcc1))
   (pad "7" thru_hole oval (at 0 -5) (size 3 1.7) (drill oval 2 0.7) (layers *.Cu *.Mask) (tstamp 2a507df7-40c5-4523-b0fd-269cea55efb9))
   (pad "7" thru_hole oval (at 0 5) (size 3 1.7) (drill oval 2 0.7) (layers *.Cu *.Mask) (tstamp 33b6dbe8-d555-4f35-a63c-27c75fa09ca7))
+  (model "${KIPRJMOD}/toko_10k.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
